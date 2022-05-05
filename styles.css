@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+}
+
+img {
+  width: 150px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+header a {
+  text-decoration: none;
+}
+header a span {
+  font-weight: bold;
+}
+header img {
+  width: 30px;
+}
+header nav {
+  padding: 20px, 0, 20px, 0;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 300px;
+}
+
+.main-titles {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-size: 0.5rem;
+  margin-top: 20px;
+}
+
+.container-featured {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.container-featured article {
+  width: 150px;
+  text-align: center;
+}
+.container-featured article img {
+  width: 100%;
+}
+.container-featured article .product-info {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.container-featured article .price {
+  margin-top: 10px;
+}
+
+.container-outstanding {
+  margin-top: 150px;
+  margin: 0 auto;
+}
+.container-outstanding .outstanding-row1, .container-outstanding .outstanding-row2 {
+  display: flex;
+}
+.container-outstanding .outstanding1, .container-outstanding .outstanding4, .container-outstanding .outstanding2, .container-outstanding .outstanding3 {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+}
+.container-outstanding .outstanding1 article, .container-outstanding .outstanding4 article, .container-outstanding .outstanding2 article, .container-outstanding .outstanding3 article {
+  width: 150px;
+  text-align: center;
+}
+.container-outstanding .outstanding1 article img, .container-outstanding .outstanding4 article img, .container-outstanding .outstanding2 article img, .container-outstanding .outstanding3 article img {
+  width: 100%;
+}
+.container-outstanding .outstanding1 article .product-info, .container-outstanding .outstanding4 article .product-info, .container-outstanding .outstanding2 article .product-info, .container-outstanding .outstanding3 article .product-info {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.container-outstanding .outstanding1 article .price, .container-outstanding .outstanding4 article .price, .container-outstanding .outstanding2 article .price, .container-outstanding .outstanding3 article .price {
+  margin-top: 10px;
+}
+.container-outstanding .outstanding2 img, .container-outstanding .outstanding3 img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
