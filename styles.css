@@ -13,6 +13,10 @@ img {
   width: 150px;
 }
 
+a, a:visited, a:active {
+  color: black;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -96,8 +100,11 @@ header nav ul {
   width: 150px;
   text-align: center;
 }
+.container-outstanding .outstanding1 article a, .container-outstanding .outstanding4 article a, .container-outstanding .outstanding2 article a, .container-outstanding .outstanding3 article a {
+  display: inline-block;
+}
 .container-outstanding .outstanding1 article img, .container-outstanding .outstanding4 article img, .container-outstanding .outstanding2 article img, .container-outstanding .outstanding3 article img {
-  width: 100%;
+  width: 90%;
   height: 100px;
 }
 .container-outstanding .outstanding1 article img:hover, .container-outstanding .outstanding4 article img:hover, .container-outstanding .outstanding2 article img:hover, .container-outstanding .outstanding3 article img:hover {

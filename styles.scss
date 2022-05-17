@@ -13,6 +13,10 @@ img {
     width: 150px;
 }
 
+a, a:visited, a:active {
+    color: black;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -21,6 +25,7 @@ header {
 
     a {
         text-decoration: none;
+        
 
         span {
             font-weight: bold;
@@ -123,10 +128,13 @@ header {
                 width: 150px;
                 text-align: center;
                 
-                
+                a {
+                    display: inline-block;
+
+                }
     
                 img {
-                    width: 100%;
+                    width: 90%;
                     height: 100px;
                 }
 

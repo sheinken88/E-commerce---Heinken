@@ -36,3 +36,13 @@ function cartNumbers() {
     localStorage.setItem("cartNumbers", 1);
 
 }
+
+Swal.fire({
+    title: 'Error!',
+    text: 'Do you want to continue?',
+    icon: 'error',
+    confirmButtonText: 'Cool'
+})
+
+
+console.log(Swal);
